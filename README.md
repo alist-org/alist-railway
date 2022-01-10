@@ -1,2 +1,9 @@
 # railway
-alist for railway
+Alist for railway
+
+### Usage
+- Fork this repo
+- Open https://railway.app/ and click `New Object`
+- Choose the repo that you forked and select the main branch
+- Add mysql plugin
+- Add a new Project Variables: `PORT -> 80`
