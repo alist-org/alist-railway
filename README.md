@@ -1,5 +1,5 @@
 # railway
-Alist for railway
+Railway for Alist
 *This branch is temporarily unavailable*
 
 ### Usage
