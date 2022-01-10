@@ -5,7 +5,7 @@ RUN chmod -R 777 /opt/alist/data
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
-EXPOSE 80
+EXPOSE 5244
 
 ENV DB_TYPE=postgres
 ENV CACHE_EXPIRATION=60

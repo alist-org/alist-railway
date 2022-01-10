@@ -3,7 +3,7 @@ mkdir -p /opt/alist/data/
 cat >/opt/alist/data/config.json <<EOF
 {
   "address": "0.0.0.0",
-  "port": 80,
+  "port": 5244,
   "database": {
     "type": "$DB_TYPE",
     "user": "$PGUSER",

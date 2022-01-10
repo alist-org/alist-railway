@@ -6,5 +6,5 @@ Alist for railway
 - Fork this repo
 - Open https://railway.app/ and click `New Object`
 - Choose the repo that you forked and select the `postgres` branch
+- Add a new variable: `PORT -> 5244`
 - Add `postgres` plugin
-- Add a new Project Variables: `PORT -> 80`
