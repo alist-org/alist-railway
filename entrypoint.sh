@@ -5,12 +5,12 @@ cat >/opt/alist/data/config.json <<EOF
   "address": "0.0.0.0",
   "port": 80,
   "database": {
-    "type": "$DB_TYPE",
-    "user": "$DB_USER",
-    "password": "$DB_PASS",
-    "host": "$DB_HOST",
-    "port": $DB_PORT,
-    "name": "$DB_NAME",
+    "type": "mysql",
+    "user": "$MYSQLUSER",
+    "password": "$MYSQLPASSWORD",
+    "host": "$MYSQLHOST",
+    "port": $MYSQLPORT,
+    "name": "$MYSQLDATABASE",
     "table_prefix": "x_",
     "db_file": "/opt/alist/data/data.db"
   },
