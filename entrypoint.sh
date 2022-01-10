@@ -5,7 +5,7 @@ cat >/opt/alist/data/config.json <<EOF
   "address": "0.0.0.0",
   "port": 80,
   "database": {
-    "type": "mysql",
+    "type": "$DB_TYPE",
     "user": "$MYSQLUSER",
     "password": "$MYSQLPASSWORD",
     "host": "$MYSQLHOST",
@@ -25,6 +25,8 @@ cat >/opt/alist/data/config.json <<EOF
   }
 }
 EOF
+
+cat /opt/alist/data/config.json
 
 cd /opt/alist
 ./alist -conf data/config.json
