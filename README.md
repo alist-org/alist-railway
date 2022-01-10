@@ -1,5 +1,5 @@
 # railway
-Alist for railway
+Railway for Alist
 
 ### Usage
 - Fork this repo
