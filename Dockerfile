@@ -7,7 +7,7 @@ RUN chmod +x /entrypoint.sh
 
 EXPOSE 80
 
-ENV DB_TYPE=mysql
+ENV DB_TYPE=postgres
 ENV CACHE_EXPIRATION=60
 ENV CACHE_CLEANUP_INTERVAL=120
 

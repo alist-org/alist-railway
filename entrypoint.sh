@@ -6,11 +6,11 @@ cat >/opt/alist/data/config.json <<EOF
   "port": 80,
   "database": {
     "type": "$DB_TYPE",
-    "user": "$MYSQLUSER",
-    "password": "$MYSQLPASSWORD",
-    "host": "$MYSQLHOST",
-    "port": $MYSQLPORT,
-    "name": "$MYSQLDATABASE",
+    "user": "$PGUSER",
+    "password": "$PGPASSWORD",
+    "host": "$PGHOST",
+    "port": $PGPORT,
+    "name": "$PGDATABASE",
     "table_prefix": "x_",
     "db_file": "/opt/alist/data/data.db"
   },
