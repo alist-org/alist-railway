@@ -1,4 +1,4 @@
-# railway
+# alist-railway
 Railway for Alist
 
 ### Usage
