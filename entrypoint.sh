@@ -22,7 +22,8 @@ cat >/opt/alist/data/config.json <<EOF
   "cache": {
     "expiration": $CACHE_EXPIRATION,
     "cleanup_interval": $CACHE_CLEANUP_INTERVAL
-  }
+  },
+  "temp_dir": "data/temp"
 }
 EOF
 
