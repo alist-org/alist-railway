@@ -1,8 +1,6 @@
 # alist-railway
 Railway for Alist
 
-*This branch is temporarily unavailable*
-
 ### Usage
 - Fork this repo
 - Open [Railway](https://railway.app?referralCode=4yFTiF) and click `New Object`
