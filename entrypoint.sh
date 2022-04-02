@@ -12,7 +12,8 @@ cat >/opt/alist/data/config.json <<EOF
     "port": $PGPORT,
     "name": "$PGDATABASE",
     "table_prefix": "x_",
-    "db_file": "/opt/alist/data/data.db"
+    "db_file": "/opt/alist/data/data.db",
+    "ssl_mode": "require"
   },
   "scheme": {
     "https": false,
