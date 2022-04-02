@@ -12,7 +12,8 @@ cat >/opt/alist/data/config.json <<EOF
     "port": $MYSQLPORT,
     "name": "$MYSQLDATABASE",
     "table_prefix": "x_",
-    "db_file": "/opt/alist/data/data.db"
+    "db_file": "/opt/alist/data/data.db",
+    "ssl_mode": "false"
   },
   "scheme": {
     "https": false,
